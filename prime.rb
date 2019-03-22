@@ -12,7 +12,9 @@ range = 2..(num/2)
     return false
   end
   range.each do |x|
-    if num % x != 0
+    if num <= 0
+      indicator = false
+    elsif num % x != 0
       indicator = true
     else
       indicator = false
