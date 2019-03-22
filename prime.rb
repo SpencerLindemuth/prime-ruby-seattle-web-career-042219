@@ -14,7 +14,7 @@ range = 2..(num/2)
     return false
   end
   range.each do |x|
-    elsif num % x != 0
+    if num % x != 0
       indicator = true
     else
       indicator = false
