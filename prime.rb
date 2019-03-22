@@ -10,9 +10,10 @@ range = 2..(num/2)
     return false
   elsif num % 3 == 0
     return false
+  elsif num <= 0
+    return false
   end
   range.each do |x|
-    if num <= 0
       indicator = false
     elsif num % x != 0
       indicator = true
