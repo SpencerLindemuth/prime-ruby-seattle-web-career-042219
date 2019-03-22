@@ -11,7 +11,7 @@ range = 2..(num/2)
     false
   end
   range.each do |x|
-    
+
 
 
 
