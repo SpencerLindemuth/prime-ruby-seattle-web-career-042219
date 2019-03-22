@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-test_array = []
+indicator = true
 range = 2..(num/2)
   if num == 2
     return true
@@ -13,9 +13,9 @@ range = 2..(num/2)
   end
   range.each do |x|
     if num % x != 0
-      test_array << true
+      indicator = true
     else
-      test_array << false
+      indicator = false
 
 
 
