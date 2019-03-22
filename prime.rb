@@ -6,6 +6,8 @@ range = 2..(num/2)
     return true
   elsif num == 3
     return true
+  elsif num == 1
+    return false
   elsif num % 2 == 0
     return false
   elsif num % 3 == 0
