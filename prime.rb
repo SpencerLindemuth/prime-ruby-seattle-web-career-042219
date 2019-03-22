@@ -16,12 +16,7 @@ range = 2..(num/2)
       indicator = true
     else
       indicator = false
-
-
-
-
-
-
-
-end
+    end
+  end
+  return indicator
 end
