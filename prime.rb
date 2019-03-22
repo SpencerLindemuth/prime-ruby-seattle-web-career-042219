@@ -19,7 +19,7 @@ range = 2..(num/2)
     if num % x != 0
       indicator = true
     else
-      indicator = false
+      return false
     end
   end
   return indicator
